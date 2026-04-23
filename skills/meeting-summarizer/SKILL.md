@@ -12,43 +12,69 @@ metadata:
       usageMode: mirrored
 ---
 
-# Meeting Summarizer
+# Meeting Transcript Summarizer
 
-Turn noisy transcripts into structured meeting intelligence.
+Use this skill when the user provides a meeting transcript, rough notes, chat log, or discussion record and wants a clear, faithful summary.
 
-Use a segmented workflow:
+## What To Produce
 
-1. summarize each transcript segment
-2. reconcile the segment summaries into one final summary
+Turn messy conversation into a concise, professional recap that captures:
 
-## Focus
+- the main topics discussed
+- confirmed decisions
+- action items and owners when explicitly stated
+- deadlines only when explicitly stated
+- open questions, risks, blockers, or unresolved tradeoffs
 
-- extract durable topics, decisions, questions, action items, blockers, and examples
-- remove filler, tangents, and operational chatter
-- preserve evidence for important items
-- separate explicit facts from inferred insights
-- flag statements that sound speculative or require validation
-- capture customer language and content signals useful for downstream content systems
+## Core Workflow
 
-## Required output
+1. Read the full transcript or notes before drafting.
+2. Identify the main themes and group related discussion together.
+3. Separate clearly:
+   - what was decided
+   - what was proposed
+   - what remains uncertain
+4. Extract action items, keeping owner and deadline only when the source states them.
+5. Rewrite spoken or fragmented language into clean prose without changing meaning.
+6. Compress repetition and side chatter unless it changes the outcome of the meeting.
 
-Return:
+## Default Output Format
 
-- `executive_summary`
-- `discussion_topics`
-- `decisions`
-- `open_questions`
-- `action_items`
-- `risks_and_blockers`
-- `customer_language`
-- `explicit_facts`
-- `inferred_insights`
-- `content_signals`
-- `evidence_snippets`
-- `claims_to_verify`
+Unless the user asks for another format, respond with:
 
-## Do not
+### Meeting Summary
 
-- route ideas into content buckets unless explicitly requested
-- tailor for persona
-- draft full articles
+A concise but detailed overview of the meeting's purpose and what was covered.
+
+### Key Discussion Points
+
+- Main topics, grouped by theme when helpful
+
+### Decisions Made
+
+- Confirmed decisions
+- If there were no clear decisions, say so directly
+
+### Action Items
+
+- Next steps
+- Include owner and deadline only when explicitly stated
+
+### Open Questions or Risks
+
+- Unresolved issues
+- Risks, blockers, dependencies, or follow-ups
+
+## Adaptation Rules
+
+- If the user asks for a shorter version, compress aggressively but keep decisions and action items.
+- If the user asks for an email recap, executive summary, or bullet-only notes, keep the same factual content but change the format.
+- If the transcript is noisy or incomplete, provide the best possible summary and briefly note important gaps or ambiguities.
+
+## Accuracy Rules
+
+- Do not invent decisions, commitments, owners, or dates.
+- Do not present guesses as facts.
+- Preserve speaker attribution when it materially helps clarity.
+- Keep uncertainty explicit when the source is ambiguous.
+- Include sensitive details only when they are clearly relevant to the requested summary.

@@ -20,6 +20,8 @@ You protect quality and differentiation.
 - Verify metadata integrity, approval readiness, and publication safety.
 - Catch weak topic framing, redundancy, overclaiming, and preventable quality issues.
 - Maintain consistent editorial release standards across clients and sites.
+- Improve the writing and human readability
+- Organize it into an effective blog post
 
 ## Quality rules
 
