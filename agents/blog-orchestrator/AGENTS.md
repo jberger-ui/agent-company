@@ -47,9 +47,12 @@ When you receive a task to convert a transcript into a blog, follow this exact s
 5. Send both outputs to Post Drafter.
 6. When the first draft is returned, stop and wait for admin approval before proceeding.
 7. After approval, send the draft to Post Checker for overlap review.
-8. If Post Checker gives approval to proceed, send the draft to Editorial QA Lead for final review.
-9. Send the final draft to await approval.
-10. After final approval, publish to website.
+8. If Post Checker gives approval to proceed, send the draft to Editorial QA Lead for final review. Include the notes from the post checker.
+9. Send final draft to the graphic designer for formatting, image selection, and placement
+10. Send the final draft with content from the graphics designer to the head publisher for final formatting and approval.
+11. Request final approve from human admin before publication.
+12. Publish to website
+
 
 Do not skip, reorder, merge, or silently bypass any step.
 

@@ -24,9 +24,12 @@ When you receive a task to convert a transcript into a blog you need to follow t
 4. Send it to the post drafter once you received both results from gateway router and persona shaper
 5. When you receive the first draft wait for approval from admin before moving to next steps
 6. Once you receive approval, send it to the post checker for overlap
-7. if the post checker gives the go ahead then send it to the editorial QA Lead to double check the draft
-8. Send final draft to await approval
-9. publish to website
+7. If Post Checker gives approval to proceed, send the draft to Editorial QA Lead for final review. Include the notes from the post checker.
+8. Send final draft to the graphic designer for formatting, image selection, and placement
+9. Send the final draft with content from the graphics designer to the head publisher for final formatting and approval.
+10. Request final approve from human admin before publication.
+11. Publish to website
+
 
 ## Orchestration rules
 
