@@ -4,7 +4,6 @@ slug: writing
 description: Use this team when approved opportunities and persona direction need to be turned into a draft article.
 manager: ../../agents/blog-orchestrator/AGENTS.md
 includes:
-  - ../../agents/blog-orchestrator/AGENTS.md
   - ../../agents/post-drafter/AGENTS.md
   - ../../skills/post-drafter/SKILL.md
 ---

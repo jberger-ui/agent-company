@@ -4,7 +4,6 @@ slug: creative-production
 description: Use this team when a near-final blog draft needs visual concepts, image planning, and placement guidance.
 manager: ../../agents/blog-orchestrator/AGENTS.md
 includes:
-  - ../../agents/blog-orchestrator/AGENTS.md
   - ../../agents/graphic-designer/AGENTS.md
   - ../../skills/graphic-designer/SKILL.md
 ---

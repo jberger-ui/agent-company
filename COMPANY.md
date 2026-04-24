@@ -38,11 +38,6 @@ requirements:
   - Preserve run-level state, artifact lineage, and publication records.
 includes:
   - ./teams/leadership/TEAM.md
-  - ./teams/content-intelligence/TEAM.md
-  - ./teams/writing/TEAM.md
-  - ./teams/review-compliance/TEAM.md
-  - ./teams/creative-production/TEAM.md
-  - ./teams/publishing/TEAM.md
   - ./projects/content-engine-hardening/PROJECT.md
   - ./projects/programmatic-authority-expansion/PROJECT.md
   - ./projects/answer-engine-footprint/PROJECT.md
