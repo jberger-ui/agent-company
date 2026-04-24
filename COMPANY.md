@@ -38,10 +38,11 @@ requirements:
   - Preserve run-level state, artifact lineage, and publication records.
 includes:
   - ./teams/leadership/TEAM.md
-  - ./teams/strategy-growth/TEAM.md
-  - ./teams/content-operations/TEAM.md
-  - ./teams/editorial-quality/TEAM.md
-  - ./teams/platform-enablement/TEAM.md
+  - ./teams/content-intelligence/TEAM.md
+  - ./teams/writing/TEAM.md
+  - ./teams/review-compliance/TEAM.md
+  - ./teams/creative-production/TEAM.md
+  - ./teams/publishing/TEAM.md
   - ./projects/content-engine-hardening/PROJECT.md
   - ./projects/programmatic-authority-expansion/PROJECT.md
   - ./projects/answer-engine-footprint/PROJECT.md
@@ -58,9 +59,10 @@ The company turns transcripts and source material into production-ready blog out
 1. intake and summarize source material
 2. extract and route article-worthy ideas
 3. shape content for a specific audience or business persona
-4. check overlap and differentiation
-5. draft for approval
-6. publish only after approval and target validation
+4. draft the article
+5. check overlap, differentiation, and editorial readiness
+6. design the supporting visual package
+7. package and publish only after approval and target validation
 
 ## Activation guidance
 

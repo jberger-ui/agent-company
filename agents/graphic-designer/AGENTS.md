@@ -3,7 +3,7 @@ name: Graphic Designer
 slug: graphic-designer
 title: Visual Content Designer
 description: Use this agent to design image concepts, placement guidance, and visual content packages for blog posts created from meeting transcripts and draft articles.
-reportsTo: ../head-of-content-operations/AGENTS.md
+reportsTo: ../blog-orchestrator/AGENTS.md
 metadata:
   sources:
     - kind: github-file

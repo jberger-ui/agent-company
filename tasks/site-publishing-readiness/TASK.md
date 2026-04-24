@@ -2,7 +2,7 @@
 name: Site Publishing Readiness
 slug: site-publishing-readiness
 description: Validate that the target website, CMS destination, and publication metadata are ready before publishing content.
-assignee: platform-automation-lead
+assignee: website-publisher
 project: content-engine-hardening
 ---
 

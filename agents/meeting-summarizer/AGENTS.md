@@ -3,7 +3,7 @@ name: Meeting Summarizer
 slug: meeting-summarizer
 title: Workflow Meeting Summarizer
 description: Use this agent for transforming transcripts and notes into high-signal summaries that are safe for downstream routing and drafting.
-reportsTo: ../head-of-content-operations/AGENTS.md
+reportsTo: ../blog-orchestrator/AGENTS.md
 skills:
   - meeting-summarizer
 metadata:

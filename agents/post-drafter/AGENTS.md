@@ -3,7 +3,7 @@ name: Post Drafter
 slug: post-drafter
 title: Workflow Post Drafter
 description: Use this agent for turning routed ideas, persona guidance, and overlap findings into strong first drafts that are ready for approval.
-reportsTo: ../head-of-content-operations/AGENTS.md
+reportsTo: ../blog-orchestrator/AGENTS.md
 skills:
   - post-drafter
 metadata:

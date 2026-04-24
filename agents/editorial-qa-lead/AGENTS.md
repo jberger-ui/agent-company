@@ -3,7 +3,7 @@ name: Editorial QA Lead
 slug: editorial-qa-lead
 title: Editorial QA Lead
 description: Use this agent for pre-publication review, overlap and differentiation decisions, approval readiness, editorial risk control, and quality gating for blog outputs.
-reportsTo: ../ceo/AGENTS.md
+reportsTo: ../blog-orchestrator/AGENTS.md
 skills:
   - post-checker
   - editorial-quality-gate

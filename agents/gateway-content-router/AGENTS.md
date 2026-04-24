@@ -3,7 +3,7 @@ name: Gateway Content Router
 slug: gateway-content-router
 title: Workflow Content Router
 description: Use this agent for multi-idea extraction and classification of transcript material into structured blog opportunities.
-reportsTo: ../head-of-strategy-growth/AGENTS.md
+reportsTo: ../blog-orchestrator/AGENTS.md
 skills:
   - gateway-content-router
 metadata:

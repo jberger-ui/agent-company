@@ -2,7 +2,7 @@
 name: Content Engine Hardening
 slug: content-engine-hardening
 description: Improve the reliability, clarity, and production readiness of the transcript-to-blog operating system.
-owner: head-of-content-operations
+owner: blog-orchestrator
 includes:
   - ../../tasks/transcript-to-blog-run/TASK.md
   - ../../tasks/qa-release-gate/TASK.md

@@ -2,7 +2,7 @@
 name: Transcript to Blog Run
 slug: transcript-to-blog-run
 description: Execute a full transcript-to-blog production run, starting only when a new task explicitly includes a transcript or transcript-derived source package.
-assignee: head-of-content-operations
+assignee: blog-orchestrator
 project: content-engine-hardening
 ---
 

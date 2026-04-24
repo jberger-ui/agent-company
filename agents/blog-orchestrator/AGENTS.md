@@ -3,7 +3,7 @@ name: Blog Orchestrator
 slug: blog-orchestrator
 title: Workflow Blog Orchestrator
 description: Use this agent for top-level transcript-to-blog orchestration across summarization, routing, persona shaping, overlap checks, drafting, approval handoff, and publication coordination.
-reportsTo: ../head-of-content-operations/AGENTS.md
+reportsTo: ../ceo/AGENTS.md
 skills:
   - blog-orchestrator
 metadata:
@@ -49,9 +49,10 @@ When you receive a task to convert a transcript into a blog, follow this exact s
 7. After approval, send the draft to Post Checker for overlap review.
 8. If Post Checker gives approval to proceed, send the draft to Editorial QA Lead for final review. Include the notes from the post checker.
 9. Send final draft to the graphic designer for formatting, image selection, and placement
-10. Send the final draft with content from the graphics designer to the head publisher for final formatting and approval.
+10. Send the final draft and content from the graphics designer to the head publisher for final formatting and approval.
 11. Request final approve from human admin before publication.
-12. Publish to website
+12. After final approval, send the approved package to Website Publisher.
+13. Publish to website
 
 
 Do not skip, reorder, merge, or silently bypass any step.

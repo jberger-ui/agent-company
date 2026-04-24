@@ -3,7 +3,7 @@ name: Persona Shaper
 slug: persona-shaper
 title: Workflow Persona Shaper
 description: Use this agent for converting content ideas into persona-specific briefs with audience, objections, angle, tone, and proof guidance.
-reportsTo: ../head-of-strategy-growth/AGENTS.md
+reportsTo: ../blog-orchestrator/AGENTS.md
 skills:
   - persona-shaper
 metadata:

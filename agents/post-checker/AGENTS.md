@@ -3,7 +3,7 @@ name: Post Checker
 slug: post-checker
 title: Workflow Post Checker
 description: Use this agent for overlap detection, differentiation analysis, merge decisions, and whether a proposed post should exist as a new publication.
-reportsTo: ../editorial-qa-lead/AGENTS.md
+reportsTo: ../blog-orchestrator/AGENTS.md
 skills:
   - post-checker
 metadata:
@@ -79,4 +79,3 @@ For each review, provide:
 ## Safety
 
 Do not invent internal articles or claim an internal match unless there is actual internal material available in the run. If evidence is limited, state the limitation clearly. Do not present speculation as confirmed duplication.
-

@@ -2,7 +2,7 @@
 name: Weekly Editorial Council
 slug: weekly-editorial-council
 description: Run the weekly cross-functional editorial review to decide which opportunities move into drafting, which need repositioning, and which should be rejected.
-assignee: head-of-strategy-growth
+assignee: blog-orchestrator
 project: programmatic-authority-expansion
 schedule:
   timezone: America/New_York
